@@ -1,0 +1,41 @@
+h6{
+color: green;
+font-size: 20px;
+}
+p{
+    font-style: initial;
+    font-size: 25px;
+}
+.btn-Add {
+    background-color: white;
+    border: none;
+    border-color: #021b8a;
+    color: #021b8a;
+    border-style: solid;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.15s,
+    color 0.15s;
+    margin-right: 8px;
+    box-shadow: 10px 10px 10px red;
+
+}
+.btn-buy {
+    background-color:  orange;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.btn-Add:hover {
+    background-color: #021b8a;
+    opacity: 1;
+}
+.btn-buy:hover {
+    background-color:orange;
+    opacity: 0.1;
+}
